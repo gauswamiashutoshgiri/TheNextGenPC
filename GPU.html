@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPU - The NextGenPC</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        .navbar {
+            background-color: #1f2933;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        .hero {
+
+            background-image: url(https://assets2.razerzone.com/images/pnx.assets/93f63e2ce9f09b098adb63a8e14cb7eb/1200x630.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .hero p {
+            margin-top: 10px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+            padding: 40px;
+        }
+
+        .product-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .product-card h3 {
+            margin-top: 0;
+            font-size: 18px;
+        }
+
+        .product-card p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .product-card h4 {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        .product-card button {
+            background-color: #1f2933;
+            color: white;
+            border: none;
+            padding: 8px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .product-card button:hover {
+            background-color: #0ea5e9;
+        }
+
+        footer {
+            background-color: #1f2933;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>The NextGenPC</h1>
+        <div>
+            <a href="home.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="About.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <section class="hero">
+        <h2>Top GPUs Available</h2>
+        <p>High-performance graphics cards at best prices</p>
+    </section>
+
+    <section class="products">
+
+        <div class="product-card">
+            <h3>NVIDIA RTX 4090</h3>
+            <p>24GB GDDR6X<br>Up to 2.5 GHz</p>
+            <h4>₹1,89,999</h4>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <h3>NVIDIA RTX 4080</h3>
+            <p>16GB GDDR6X<br>Up to 2.4 GHz</p>
+            <h4>₹1,29,999</h4>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <h3>NVIDIA RTX 4070 Ti</h3>
+            <p>12GB GDDR6X<br>Up to 2.3 GHz</p>
+            <h4>₹89,999</h4>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <h3>NVIDIA RTX 4070</h3>
+            <p>12GB GDDR6X<br>Up to 2.2 GHz</p>
+            <h4>₹59,999</h4>
+            <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+            <h3>AMD RX 7900 XTX</h3>
+            <p>24GB GDDR6<br>Up to 2.4 GHz</p>
+            <h4>₹1,09,999</h4>
+            <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+            <h3>AMD RX 7900 XT</h3>
+            <p>20GB GDDR6<br>Up to 2.3 GHz</p>
+            <h4>₹89,999</h4>
+            <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+            <h3>AMD RX 7800 XT</h3>
+            <p>16GB GDDR6<br>Up to 2.2 GHz</p>
+            <h4>₹69,999</h4>
+            <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+            <h3>AMD RX 7700 XT</h3>
+            <p>12GB GDDR6<br>Up to 2.1 GHz</p>
+            <h4>₹49,999</h4>
+            <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+            <h3>NVIDIA RTX 3060 Ti</h3>
+            <p>8GB GDDR6<br>Up to 1.7 GHz</p>
+            <h4>₹34,999</h4>
+            <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+            <h3>AMD RX 6600 XT</h3>
+            <p>8GB GDDR6<br>Up to 2.1 GHz</p>
+            <h4>₹29,999</h4>
+            <button>Buy Now</button>
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 The NextGenPC | All Rights Reserved
+        <br>
+        @ Designed By Gauswami Ashutoshgiri G.
+    </footer>
+
+</body>
+</html>
