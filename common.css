@@ -148,7 +148,7 @@ body {
             margin-top: 40px;
             background-image: linear-gradient(45deg,#1f2933, #4d608f);
         }
-            .card {
+            .cardLG {
             background: rgba(255, 255, 255, 0.25);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.5);
@@ -158,7 +158,7 @@ body {
             transition: transform 0.3s;
         }
         
-        .card:hover {
+        .cardLG:hover {
             transform: translateY(-5px);
             background: rgba(255, 255, 255, 0.35);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
